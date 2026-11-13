@@ -14,9 +14,19 @@ DeepSeek Harness 插件：在 **设置 → Token 用量** 里按 **日 / 周 / �
 
 ## 安装
 
-由 agent 用 `install_bundle` 安装本目录，或 **设置 → 插件 → 添加插件** 选择这个目录，然后重启 DSH。
+在 DSH 桌面端：**设置 → 插件 → 添加插件**，粘贴下面的地址；或者直接用命令行：
 
-装好后在 **设置 → Token 用量**（左侧导航最后几项，柱子图标）。
+```sh
+# 跟随 GitHub 默认分支
+dsh plugin --profile desktop add github:skyrocks/dsh-token-stats
+
+# 或从插件索引的 CDN 直下
+dsh plugin --profile desktop add "https://cdn.jsdelivr.net/gh/skyrocks/dsh-plugins@main/dist/skyrocks-dsh-token-stats-0.1.0.tgz"
+```
+
+装完**完全退出 DSH 再打开**（Host 插件只在启动时加载），然后进 **设置 → Token 用量**（左侧导航里带柱子图标的条目）。
+
+本地开发时也可以直接选这个目录（或让 agent 用 `install_bundle`）。
 
 ## 页面上有什么
 

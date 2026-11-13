@@ -16,8 +16,20 @@ It never calls a model, never changes a session, and never appends session event
 
 ## Install
 
-Install this directory with `install_bundle`, or use **Settings → Plugins → Add plugin**, then restart DSH.
-The page lives at **Settings → Token usage** (bar-chart icon in the settings navigation).
+In the desktop app: **Settings → Plugins → Add plugin** and paste one of the specs below, or use the CLI:
+
+```sh
+# Follow the GitHub default branch
+dsh plugin --profile desktop add github:skyrocks/dsh-token-stats
+
+# Or install the tarball from the plugin index CDN
+dsh plugin --profile desktop add "https://cdn.jsdelivr.net/gh/skyrocks/dsh-plugins@main/dist/skyrocks-dsh-token-stats-0.1.0.tgz"
+```
+
+Fully quit and relaunch DSH afterwards (host plugins load at startup), then open
+**Settings → Token usage** (the bar-chart entry in the settings navigation).
+
+For local development you can also point Add plugin at this directory, or let an agent install it with `install_bundle`.
 
 ## What the page shows
 
