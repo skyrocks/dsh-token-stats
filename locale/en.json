@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Token usage",
+    "description": "Adds a Token usage page under Settings that totals model token consumption for every session, subagents included, by day, week, and month: overall tokens, input, cache reads and writes, output, call counts, the per-model split, and a per-session ranking. It only reads local session logs — no model calls and no session changes. The first visit backfills past sessions in the background with a progress bar and stores the ledger at $DSH_HOME/token-stats/usage.json; later reads update it incrementally.",
+    "detail": "docs/DETAIL.md"
+  }
+}

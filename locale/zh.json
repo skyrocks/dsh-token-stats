@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Token 用量",
+    "description": "在「设置 → Token 用量」里按日 / 周 / 月统计所有会话（含子代理）的模型 token 消耗：总用量、输入、缓存读写、输出、调用次数、模型分布与会话消耗排行。只读本地会话日志，不调用模型、不改会话；第一次打开会在后台回填历史会话并显示进度，结果存在 $DSH_HOME/token-stats/usage.json，之后增量更新。",
+    "detail": "docs/DETAIL.md"
+  }
+}
