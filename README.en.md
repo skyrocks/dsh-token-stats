@@ -1,5 +1,8 @@
 # dsh-token-stats
 
+[![CI](https://github.com/skyrocks/dsh-token-stats/actions/workflows/ci.yml/badge.svg)](https://github.com/skyrocks/dsh-token-stats/actions/workflows/ci.yml)
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 DeepSeek Harness plugin: a **Settings → Token usage** page that totals model token consumption for every
 session by **day / week / month**, including subagent sessions.
 

@@ -1,5 +1,8 @@
 # dsh-token-stats
 
+[![CI](https://github.com/skyrocks/dsh-token-stats/actions/workflows/ci.yml/badge.svg)](https://github.com/skyrocks/dsh-token-stats/actions/workflows/ci.yml)
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
+
 DeepSeek Harness 插件：在 **设置 → Token 用量** 里按 **日 / 周 / 月** 统计所有会话的 token 消耗。
 
 包含总用量、输入、缓存读写、输出、调用次数、趋势柱状图和模型分布；子代理会话一起算。
